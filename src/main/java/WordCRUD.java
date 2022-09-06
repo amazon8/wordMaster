@@ -32,7 +32,7 @@ public class WordCRUD implements Icrud{
         System.out.println("-------------------");
         for(int i=0; i<dictionary.size(); i++)
         {
-            System.out.print(i);
+            System.out.print(i+1);
             if(dictionary.get(i).getDifficulty()==1)
             {
                 System.out.print(" *");
