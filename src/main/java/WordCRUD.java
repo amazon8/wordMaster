@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class WordCRUD {
+public class WordCRUD implements Icrud{
 
     int tempDifficulty;
     String tempWord;
