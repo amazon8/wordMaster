@@ -1,0 +1,2 @@
+1|electric|전기의
+2|equipment|장비
