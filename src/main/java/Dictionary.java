@@ -1,11 +1,13 @@
 public class Dictionary {
 
+    int id;
     int difficulty;
     String word;
     String meaning;
 
-    public Dictionary(int _difficulty, String _word, String _meaning)
+    public Dictionary(int _id, int _difficulty, String _word, String _meaning)
     {
+        id = _id;
         difficulty = _difficulty;
         word = _word;
         meaning = _meaning;

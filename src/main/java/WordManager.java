@@ -9,7 +9,8 @@ public class WordManager {
     Scanner keyboard = new Scanner(System.in);
 
     public void selectMenu()
-    {
+    {   
+        word.loadFile();
         while(true)
         {
             System.out.println();
@@ -17,6 +18,7 @@ public class WordManager {
             System.out.println("******************");
             System.out.println("1. 모든 단어 보기");
             System.out.println("4. 단어 추가");
+            System.out.println("7. 파일 저장");
             System.out.println("0. 나가기");
             System.out.println("******************");
             System.out.println("==> 원하는 메뉴는? ");
@@ -28,6 +30,10 @@ public class WordManager {
             else if(num==4)
             {
                 word.create();
+            }
+            else if(num==7)
+            {
+                word.saveFile();
             }
             else if(num==0)
             {
