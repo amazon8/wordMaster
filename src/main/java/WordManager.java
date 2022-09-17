@@ -31,6 +31,14 @@ public class WordManager {
             {
                 word.read();
             }
+            if(num==2)
+            {
+                word.searchLevel();
+            }
+            if(num==3)
+            {
+                word.search();
+            }
             else if(num==4)
             {
                 word.create();

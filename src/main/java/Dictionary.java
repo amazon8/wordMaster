@@ -37,4 +37,14 @@ public class Dictionary {
     public void setMeaning(String meaning) {
         this.meaning = meaning;
     }
+
+
+    public String toFileString(){
+        return difficulty + "|" + word + "|" + meaning;
+    }
+
 }
+
+
+
+
