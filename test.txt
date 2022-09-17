@@ -1,5 +1,4 @@
 3|superintedent|관리자, 감독관
-2|pole|기둥
+2|pole|기둥, 장대
 1|formerly|이전에, 이전의
-1|electric|전기의
 2|equipment|장비
